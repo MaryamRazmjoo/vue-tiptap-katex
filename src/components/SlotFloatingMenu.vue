@@ -42,12 +42,7 @@
 <script>
   export default {
     name: 'SlotFloatingMenu',
-    props: {
-      editor: {
-        type: Object,
-        default: () => {}
-      }
-    },
+    props: ['editor'],
     data () {
       return {
         bubbleMenuItems: [],
