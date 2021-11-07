@@ -30,12 +30,7 @@
 <script>
   export default {
     name: 'SlotBubbleMenu',
-    props: {
-      editor: {
-        type: Object,
-        default: () => {}
-      }
-    },
+    props: ['editor'],
     data () {
       return {
         bubbleMenuItems: [],
